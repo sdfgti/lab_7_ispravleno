@@ -21,7 +21,6 @@ body {
 }
 .navigation li a {
   color: #121f38;
-  font-family: Georgia, serif;
   font-size: 20px;
   text-decoration: none;
 }
@@ -45,8 +44,6 @@ body {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 100%;
-  height: auto;
 }
 .photo_container img {
   margin: 10px;
@@ -54,30 +51,5 @@ body {
 .photo_container a {
   color: #1b2e3d;
   text-align: center;
-}
-@media screen and (max-width: 900px) {
-  .container {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 700px) {
-  .navigation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .navigation li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .ie-warning {
-    display: block;
-    text-align: center;
-    background-color: #ffcccc;
-    padding: 10px;
-    color: #990000;
-  }
 }
 
