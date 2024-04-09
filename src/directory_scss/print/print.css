@@ -1,0 +1,54 @@
+
+body {
+    background: none;
+    margin: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title, .navigation, .author, .hobby {
+    display: none;
+}
+
+.photo {
+    display: none;
+}
+
+.photo_container img {
+    display: none;
+}
+.Article{
+    display: none;
+}
+.nazv_news {
+    color: black;
+    margin: 60px;
+    font-family: "Times New Roman", Times, serif;
+    }
+.news{
+    color: black;
+    margin: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+.prepodavateli{
+    color: black;
+    margin: 60px;
+    font-family: "Times New Roman", Times, serif;
+}
+.prepodavateli_list{
+    color: black;
+    margin: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+@page {
+        margin: 50px;
+    }
+
+a:after {
+    content: " (" attr(href) ")";
+}

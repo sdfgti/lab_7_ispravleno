@@ -73,3 +73,31 @@ body {
     .article a:hover {
         text-decoration: underline;
     }
+    @media screen and (max-width: 700px) {
+        .container {
+          width: 90%;
+        }
+      }
+      
+    
+      @media screen and (max-width: 600px) {
+        .navigation {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .navigation li {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+      
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .ie-warning {
+          display: block;
+          text-align: center;
+          background-color: #ffcccc;
+          padding: 10px;
+          color: #990000;
+        }
+      }

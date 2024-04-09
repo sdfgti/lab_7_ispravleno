@@ -1,3 +1,4 @@
+@import url('../print/print.css') print;
 body {
     background-image: linear-gradient(to right, #009999, #1D7373, #006363, #33CCCC, #5CCCCC);
         
@@ -48,6 +49,8 @@ body {
     display: inline-flex;
     flex-direction: column; 
     justify-content: center;
+    max-width: 100%;
+    height: auto;
         
     }
     
@@ -58,3 +61,31 @@ body {
         color:#1b2e3d;
     text-align: center;
     }
+    @media screen and (max-width: 700px) {
+        .container {
+          width: 90%;
+        }
+      }
+      
+    
+      @media screen and (max-width: 600px) {
+        .navigation {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .navigation li {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+      
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .ie-warning {
+          display: block;
+          text-align: center;
+          background-color: #ffcccc;
+          padding: 10px;
+          color: #990000;
+        }
+      }
